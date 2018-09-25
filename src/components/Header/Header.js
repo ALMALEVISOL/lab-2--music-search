@@ -14,6 +14,11 @@ export default class Header extends Component {
             <Logo />
           </a>
           <Link to={`/playlists/${PLAYLIST_ID}`}>{PLAYLIST_ID}</Link>
+          <Link to={"/search"}>
+            <span className="search-span">
+              Looking more artist?, Click here
+            </span>
+          </Link>
         </div>
       </div>
     );

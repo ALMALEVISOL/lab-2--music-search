@@ -6,3 +6,9 @@
   background-color: lightblue;
   box-shadow: 0px 1px 3px #bababa;
 }
+
+.search-span {
+  font-size: 20px;
+  background-color: lightpink;
+  margin-left: 30px;
+}
